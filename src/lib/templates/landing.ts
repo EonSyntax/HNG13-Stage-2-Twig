@@ -35,50 +35,50 @@ export const landingTemplate = () => `
       <div class="max-w-[1440px] mx-auto px-6 md:px-12">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold mb-4">
-            Everything You Need To Manage Tickets
+            Powerful Features
           </h2>
           <p class="text-muted-foreground max-w-2xl mx-auto">
-            Powerful features designed to streamline your support workflow and delight your customers
+            Everything you need to manage support tickets efficiently
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="flex flex-col gap-4 p-6 border rounded-lg bg-background hover:shadow-lg transition-shadow">
             <div class="flex items-start justify-between">
-              <div class="w-6 h-6 text-primary">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div class="w-12 h-12 text-primary bg-primary/10 rounded-lg flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path>
                 </svg>
               </div>
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-2">Ticket Management</h3>
+              <h3 class="text-xl font-semibold mb-2">Smart Ticketing</h3>
               <p class="text-muted-foreground">
-                Create, update, and track support tickets with ease. Never lose track of customer requests again.
+                Create, categorize, and prioritize tickets with an intuitive interface designed for speed and clarity.
               </p>
             </div>
           </div>
 
           <div class="flex flex-col gap-4 p-6 border rounded-lg bg-background hover:shadow-lg transition-shadow">
             <div class="flex items-start justify-between">
-              <div class="w-6 h-6 text-primary">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div class="w-12 h-12 text-primary bg-primary/10 rounded-lg flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                 </svg>
               </div>
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-2">Real-time Analytics</h3>
+              <h3 class="text-xl font-semibold mb-2">Real-time Updates</h3>
               <p class="text-muted-foreground">
-                Monitor ticket trends, response times, and team performance with detailed analytics dashboards.
+                Stay in sync with instant notifications and live status updates across your entire team.
               </p>
             </div>
           </div>
 
           <div class="flex flex-col gap-4 p-6 border rounded-lg bg-background hover:shadow-lg transition-shadow">
             <div class="flex items-start justify-between">
-              <div class="w-6 h-6 text-primary">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div class="w-12 h-12 text-primary bg-primary/10 rounded-lg flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                 </svg>
               </div>
@@ -86,31 +86,29 @@ export const landingTemplate = () => `
             <div>
               <h3 class="text-xl font-semibold mb-2">Team Collaboration</h3>
               <p class="text-muted-foreground">
-                Collaborate seamlessly with your team. Assign tickets, share updates, and work together efficiently.
+                Work together seamlessly with shared visibility and collaborative tools for your support team.
               </p>
             </div>
           </div>
 
           <div class="flex flex-col gap-4 p-6 border rounded-lg bg-background hover:shadow-lg transition-shadow">
             <div class="flex items-start justify-between">
-              <div class="w-6 h-6 text-primary">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                </svg>
+              <div class="w-12 h-12 text-primary bg-primary/10 rounded-lg flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-column w-6 h-6 text-primary"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg>
               </div>
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-2">Priority Management</h3>
+              <h3 class="text-xl font-semibold mb-2">Analytics Dashboard</h3>
               <p class="text-muted-foreground">
-                Set priorities for tickets and ensure critical issues get resolved first with smart routing.
+                Get insights into ticket trends, resolution times, and team performance with comprehensive analytics.
               </p>
             </div>
           </div>
 
           <div class="flex flex-col gap-4 p-6 border rounded-lg bg-background hover:shadow-lg transition-shadow">
             <div class="flex items-start justify-between">
-              <div class="w-6 h-6 text-primary">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div class="w-12 h-12 text-primary bg-primary/10 rounded-lg flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
@@ -118,23 +116,23 @@ export const landingTemplate = () => `
             <div>
               <h3 class="text-xl font-semibold mb-2">Status Tracking</h3>
               <p class="text-muted-foreground">
-                Track ticket status from open to closed. Keep customers informed every step of the way.
+                Track ticket progress through customizable workflows with clear visual indicators.
               </p>
             </div>
           </div>
 
           <div class="flex flex-col gap-4 p-6 border rounded-lg bg-background hover:shadow-lg transition-shadow">
             <div class="flex items-start justify-between">
-              <div class="w-6 h-6 text-primary">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div class="w-12 h-12 text-primary bg-primary/10 rounded-lg flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-2">Quick Response</h3>
+              <h3 class="text-xl font-semibold mb-2">Time Management</h3>
               <p class="text-muted-foreground">
-                Reduce response times with automated workflows and smart templates for common issues.
+                Monitor response times and SLAs to ensure your team meets customer expectations consistently.
               </p>
             </div>
           </div>
